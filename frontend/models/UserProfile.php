@@ -78,4 +78,12 @@ class UserProfile extends \yii\db\ActiveRecord
     {
         return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
+      public function getVideo()
+    {
+        return $this->hasMany(Video::className(), ['profile_id' => 'id']);
+    }
+      public function getNews()
+    {
+        return $this->hasMany(News::className(), ['profile_id' => 'id']);
+    }
 }

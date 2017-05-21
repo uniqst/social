@@ -6,31 +6,22 @@ $this->title = 'Лента новостей';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-login">
+<div class="row">
+<div class="col-md-8">
    <div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+   <?php foreach($model as $news):?>
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start news" style="background: white; border-radius: 10px;">
     <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">List group item heading</h5>
+    <img src="/<?=$news->userProfile->avatar?>" style="border-radius: 50%; width: 50px; height: 50px;">
+    <?=$news->userProfile->name?> <?=$news->userProfile->surname?>
+    <img src="<?=$news->photo?>" width="100%">
+      <h2><?=$news->name?></h2>
       <small>3 days ago</small>
     </div>
-    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-    <small>Donec id elit non mi porta.</small>
+    <p class="mb-1"><?=$news->content?></p>
   </a>
-  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-    <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">List group item heading</h5>
-      <small class="text-muted">3 days ago</small>
-    </div>
-    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-    <small class="text-muted">Donec id elit non mi porta.</small>
-  </a>
-  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-    <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">List group item heading</h5>
-      <small class="text-muted">3 days ago</small>
-    </div>
-    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-    <small class="text-muted">Donec id elit non mi porta.</small>
-  </a>
+  <?php endforeach;?>
 </div>
-
+</div>
+</div>
 </div>

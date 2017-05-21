@@ -8,14 +8,16 @@
   </ol> -->
 
   <!-- Wrapper for slides -->
+  <?php $count = 1;?>
   <div class="carousel-inner">
     <div class="item active">
       <img src="/<?=$model->avatar?>" alt="" style="max-height: 84vh; margin: 0 auto;">
+        <p>Фото <?=$count++;?> из <?=count($model->gallery) + 1;?></p>
     </div>
-    
   <?php foreach($model->gallery as $gallery):?>
     <div class="item">
-      <img src="<?=$gallery->photo?>" alt="" style="max-height: 84vh; margin: 0 auto;">
+      <img src="/<?=$gallery->photo?>" alt="" style="max-height: 84vh; margin: 0 auto;">
+          <p>Фото <?=$count++;?> из <?=count($model->gallery) + 1;?></p>
     </div>
   <?php endforeach;?> 
    
@@ -30,6 +32,5 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
     <span class="sr-only">Next</span>
   </a>
-  <p>Количество фотографий <?=count($model->gallery)+ 1;?></p>
 </div>
 
