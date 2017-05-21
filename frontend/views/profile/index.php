@@ -8,23 +8,27 @@ use yii\bootstrap\Modal;
 
 $this->title = Yii::$app->user->identity->username;
 $this->params['breadcrumbs'][] = $this->title;
-
 ?>
 <div class="row" >
 	<div class="col-md-4">
 			<p>
-        <?= Html::img("/".$model->userProfile->avatar, ['value' => Url::to(['/profile/news']) , 'width' => '100%', 'id' => 'modalButton']) ?>
+        <?= Html::img($model->userProfile->avatar, ['value' => Url::to(['/profile/gallery']) , 'width' => '100%', 'id' => 'modalButton']) ?>
     </p>
 		<?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data', 'id' => 'form']]); ?>
 			<?= $form->field($avatar, 'file')->fileInput(['id' => 'input', 'title' => 'Редактировать', 'style' => 'width: 100%'])->label(false) ?>
 		<?php ActiveForm::end(); ?>
-
 	</div>
- 
+ 	<style type="text/css">
+ 		.modal-content{
+ 			height: 93vh;
+
+ 		}
+ 	</style>
 
     <?php
-      Modal::begin([
+     Modal::begin([
     'id' => 'modal',
+    'class' => 'container-fluid',
     'size' => 'modal-lg',
     ]);
     echo "<div id='modalContent'></div>";

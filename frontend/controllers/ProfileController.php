@@ -15,7 +15,10 @@ use frontend\models\ContactForm;
 use frontend\models\News;
 use frontend\models\User;
 use frontend\models\Avatar;
+use frontend\models\Gallery;
+use frontend\models\UserProfile;
 use yii\db\ActiveRecord;
+use yii\db\ActiveQuery;
 use yii\web\UploadedFile;
 /**
  * Site controller
@@ -41,9 +44,14 @@ class ProfileController extends AccessController
     public function actionIndex(){
              $model = User::find()->where(['username' => Yii::$app->user->identity->username])->with('userProfile')->one();
              $avatar = $model->userProfile;
+             $gallery = $model->userProfile->gallery;
             if ($avatar->load(Yii::$app->request->post())) {
             $avatar->file = UploadedFile::getInstance($avatar, 'file');
             if(!empty($avatar->file)){
+            $gallery = new Gallery();
+            $gallery->user_profile_id = Yii::$app->user->id;
+            $gallery->photo = $avatar->avatar;
+            $gallery->save();
             $avatar->file->saveAs('upload/' . $avatar->file->baseName . '.' . $avatar->file->extension);
             $avatar->avatar = 'upload/' . $avatar->file->baseName . '.' . $avatar->file->extension;
             }
@@ -55,6 +63,12 @@ class ProfileController extends AccessController
     public function actionNews(){
              $model = News::find()->all();
              return $this->render('news', compact('model'));
+    }
+
+      public function actionGallery(){
+        $this->layout = false;
+        $model = UserProfile::find()->where(['user_id' => Yii::$app->user->id])->with('gallery')->one();
+        return $this->render('gallery', compact('model'));
     }
 
 }
