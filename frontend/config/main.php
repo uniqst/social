@@ -10,7 +10,7 @@ return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
     'homeUrl' => '/',
-    'defaultRoute' => 'site/login',
+    'defaultRoute' => '/profile',
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [

@@ -4,6 +4,7 @@
 /* @var $content string */
 
 use yii\helpers\Html;
+use yii\helpers\Url;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
@@ -22,43 +23,48 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body>
+<body style="background: url('/images/background.jpg');">
 <?php $this->beginBody() ?>
-
-<div class="wrap">
-    <?php
-    NavBar::begin([
-        'brandLabel' => Yii::$app->user->identity->username,
-        'brandUrl' => Yii::$app->homeUrl,
-        'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
-        ],
-    ]);
-    $menuItems = [['label' => 'Главная', 'url' => '/']];
-    if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Регистрация', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => 'Вход', 'url' => ['/site/login']];
-    } else {
-        $menuItems[] = '<li>'
-            . Html::beginForm(['/site/logout'], 'post')
-            . Html::submitButton(
-                'Выйти',
-                ['class' => 'btn btn-link logout']
-            )
-            . Html::endForm()
-            . '</li>';
-    }
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
-        'items' => $menuItems,
-    ]);
-    NavBar::end();
-    ?>
-
-    <div class="container">
-       
-        <?= $content ?>
+<div class="wrap container">
+<div class="row">
+<div class="col-md-2 сol-sm-3" style="margin-top: 30px;">
+<nav class="navbar navbar-default sidebar" role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>      
     </div>
+    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li <?php if(Yii::$app->controller->route == 'profile/index'){ echo "class='active'";} ?> ><a href="<?=Url::to(['/profile'])?>">Моя страница<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+        <li class="dropdown" <?php if(Yii::$app->controller->route == 'profile/friends'){ echo "class='active'";} ?>>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Друзья<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a>
+          <ul class="dropdown-menu forAnimate" role="menu">
+            <li><a href="{{URL::to('createusuario')}}">Crear</a></li>
+            <li><a href="#">Modificar</a></li>
+            <li><a href="#">Reportar</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Informes</a></li>
+          </ul>
+        </li>          
+        <li <?php if(Yii::$app->controller->route == 'profile/news'){ echo "class='active'";} ?> ><a href="<?=Url::to(['profile/news'])?>">Новости<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>        
+        <li <?php if(Yii::$app->controller->route == 'profile/configuration'){ echo "class='active'";} ?>><a href="#">Настройки<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></a></li>
+         <li><a href="<?=Url::to(['site/logout'])?>">Выйти<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+<div class="col-md-10 col-sm-9" style="padding: 30px;">
+<?=$content?>
+</div>
+</div>
 </div>
 
 <footer class="footer">
