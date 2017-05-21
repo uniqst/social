@@ -12,6 +12,7 @@
     <div class="item active">
       <img src="/<?=$model->avatar?>" alt="" style="max-height: 84vh; margin: 0 auto;">
     </div>
+    
   <?php foreach($model->gallery as $gallery):?>
     <div class="item">
       <img src="<?=$gallery->photo?>" alt="" style="max-height: 84vh; margin: 0 auto;">
@@ -31,3 +32,4 @@
   </a>
   <p>Количество фотографий <?=count($model->gallery)+ 1;?></p>
 </div>
+

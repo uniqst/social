@@ -48,4 +48,13 @@ return array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
     ),
   ),
+  'rmrevin/yii2-minify-view' => 
+  array (
+    'name' => 'rmrevin/yii2-minify-view',
+    'version' => '1.14.4.0',
+    'alias' => 
+    array (
+      '@rmrevin/yii/minify' => $vendorDir . '/rmrevin/yii2-minify-view',
+    ),
+  ),
 );
