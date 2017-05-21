@@ -1,0 +1,281 @@
+a:9:{s:6:"config";a:5:{s:10:"phpVersion";s:5:"7.0.4";s:10:"yiiVersion";s:6:"2.0.11";s:11:"application";a:5:{s:3:"yii";s:6:"2.0.11";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:5:"7.0.4";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:6:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:80:"D:\Games\OpenServer\domains\templateYii2advanced\vendor/yiisoft/yii2-swiftmailer";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:78:"D:\Games\OpenServer\domains\templateYii2advanced\vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:74:"D:\Games\OpenServer\domains\templateYii2advanced\vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:72:"D:\Games\OpenServer\domains\templateYii2advanced\vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:74:"D:\Games\OpenServer\domains\templateYii2advanced\vendor/yiisoft/yii2-faker";}}s:24:"rmrevin/yii2-minify-view";a:3:{s:4:"name";s:24:"rmrevin/yii2-minify-view";s:7:"version";s:8:"1.14.4.0";s:5:"alias";a:1:{s:19:"@rmrevin/yii/minify";s:80:"D:\Games\OpenServer\domains\templateYii2advanced\vendor/rmrevin/yii2-minify-view";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:11:{s:4:"host";s:20:"templateyii2advanced";s:10:"connection";s:10:"keep-alive";s:13:"cache-control";s:9:"max-age=0";s:25:"upgrade-insecure-requests";s:1:"1";s:9:"save-data";s:2:"on";s:10:"user-agent";s:109:"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.7.3029.81 Safari/537.36";s:6:"accept";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:7:"referer";s:28:"http://templateyii2advanced/";s:15:"accept-encoding";s:19:"gzip, deflate, sdch";s:15:"accept-language";s:44:"uk-UA,uk;q=0.8,ru;q=0.6,en-US;q=0.4,en;q=0.2";s:6:"cookie";s:1009:"_csrf-frontend=0172b08ccd0f80590a9c5973e6447ba740265611bd3d5f74057d9475c5dceccda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Kf49VzdPHUC1swX-Izi2TelkzAixBzO5%22%3B%7D; ykuid=r6xixms09djvdehdcmhqor; ykoptout=false; __lnkrntdmcvrd=-1; vidyk=9; advanced-frontend=hpm1rt33gmp62ik3eovtist7q7; ctxjs1420m06d05nn=7b2273756363657373223a302c226c6f675f616374697665223a302c22626c223a302c2263706d223a302c2263706d5f726f6e223a307d; countrySCJSn=WW; orgCountrySCJSn=RO; ootdcuSCJSn=40782; 83bronnmklsae328ynn=63145; red83bronnmklsae328ynn=65408; ootdchSCJSn=10742; gre67fsdsfg456=11581; redgre67fsdsfg456=11603; testronchnnl=11608; testroncntunt=65594; transproncntunt=64237; transpronchnnl=11584; uyru345hr9lks1453=34715973320417111494574863; lk6woeqwjnbcfn=1495382480568; _identity-frontend=ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QN2kV5dup82LB8jXXaBDpZZU9ntKuay3%22%2C2592000%5D%22%3B%7D";}s:15:"responseHeaders";a:5:{s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:10:"Set-Cookie";s:299:"_identity-frontend=ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QN2kV5dup82LB8jXXaBDpZZU9ntKuay3%22%2C2592000%5D%22%3B%7D; expires=Tue, 20-Jun-2017 16:25:07 GMT; Max-Age=2592000; path=/; HttpOnly";}s:5:"route";s:13:"profile/index";s:6:"action";s:53:"frontend\controllers\ProfileController::actionIndex()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:0:{}s:6:"SERVER";a:42:{s:15:"REDIRECT_STATUS";s:3:"200";s:9:"HTTP_HOST";s:20:"templateyii2advanced";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:14:"HTTP_SAVE_DATA";s:2:"on";s:15:"HTTP_USER_AGENT";s:109:"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.7.3029.81 Safari/537.36";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:12:"HTTP_REFERER";s:28:"http://templateyii2advanced/";s:20:"HTTP_ACCEPT_ENCODING";s:19:"gzip, deflate, sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:44:"uk-UA,uk;q=0.8,ru;q=0.6,en-US;q=0.4,en;q=0.2";s:11:"HTTP_COOKIE";s:1009:"_csrf-frontend=0172b08ccd0f80590a9c5973e6447ba740265611bd3d5f74057d9475c5dceccda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Kf49VzdPHUC1swX-Izi2TelkzAixBzO5%22%3B%7D; ykuid=r6xixms09djvdehdcmhqor; ykoptout=false; __lnkrntdmcvrd=-1; vidyk=9; advanced-frontend=hpm1rt33gmp62ik3eovtist7q7; ctxjs1420m06d05nn=7b2273756363657373223a302c226c6f675f616374697665223a302c22626c223a302c2263706d223a302c2263706d5f726f6e223a307d; countrySCJSn=WW; orgCountrySCJSn=RO; ootdcuSCJSn=40782; 83bronnmklsae328ynn=63145; red83bronnmklsae328ynn=65408; ootdchSCJSn=10742; gre67fsdsfg456=11581; redgre67fsdsfg456=11603; testronchnnl=11608; testroncntunt=65594; transproncntunt=64237; transpronchnnl=11584; uyru345hr9lks1453=34715973320417111494574863; lk6woeqwjnbcfn=1495382480568; _identity-frontend=ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QN2kV5dup82LB8jXXaBDpZZU9ntKuay3%22%2C2592000%5D%22%3B%7D";s:4:"PATH";s:643:"d:\games\openserver\modules\php\PHP-7-x64\ext;d:\games\openserver\modules\php\PHP-7-x64\pear;d:\games\openserver\modules\php\PHP-7-x64\pear\bin;d:\games\openserver\modules\php\PHP-7-x64;d:\games\openserver\modules\imagemagick;d:\games\openserver\modules\wget\bin;d:\games\openserver\modules\git;d:\games\openserver\modules\git\bin;d:\games\openserver\modules\git\mingw\bin;d:\games\openserver\modules\git\cmd;d:\games\openserver\modules\database\MySQL-5.7-x64\bin;d:\games\openserver\modules\http\Apache-PHP-7-x64\bin;d:\games\openserver\modules\http\Apache-PHP-7-x64;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64";s:10:"SystemRoot";s:10:"C:\Windows";s:7:"COMSPEC";s:27:"C:\Windows\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\Windows";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"SERVER_NAME";s:20:"templateyii2advanced";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:48:"D:/Games/OpenServer/domains/templateYii2advanced";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:48:"D:/Games/OpenServer/domains/templateYii2advanced";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:71:"D:/Games/OpenServer/domains/templateYii2advanced/frontend/web/index.php";s:11:"REMOTE_PORT";s:5:"11985";s:12:"REDIRECT_URL";s:1:"/";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:1:"/";s:11:"SCRIPT_NAME";s:23:"/frontend/web/index.php";s:8:"PHP_SELF";s:23:"/frontend/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1495383906.4690001;s:12:"REQUEST_TIME";i:1495383906;s:4:"argv";a:0:{}s:4:"argc";i:0;}s:3:"GET";a:0:{}s:4:"POST";a:0:{}s:6:"COOKIE";a:22:{s:14:"_csrf-frontend";s:140:"0172b08ccd0f80590a9c5973e6447ba740265611bd3d5f74057d9475c5dceccda:2:{i:0;s:14:"_csrf-frontend";i:1;s:32:"Kf49VzdPHUC1swX-Izi2TelkzAixBzO5";}";s:5:"ykuid";s:22:"r6xixms09djvdehdcmhqor";s:8:"ykoptout";s:5:"false";s:14:"__lnkrntdmcvrd";s:2:"-1";s:5:"vidyk";s:1:"9";s:17:"advanced-frontend";s:26:"hpm1rt33gmp62ik3eovtist7q7";s:17:"ctxjs1420m06d05nn";s:110:"7b2273756363657373223a302c226c6f675f616374697665223a302c22626c223a302c2263706d223a302c2263706d5f726f6e223a307d";s:12:"countrySCJSn";s:2:"WW";s:15:"orgCountrySCJSn";s:2:"RO";s:11:"ootdcuSCJSn";s:5:"40782";s:19:"83bronnmklsae328ynn";s:5:"63145";s:22:"red83bronnmklsae328ynn";s:5:"65408";s:11:"ootdchSCJSn";s:5:"10742";s:14:"gre67fsdsfg456";s:5:"11581";s:17:"redgre67fsdsfg456";s:5:"11603";s:12:"testronchnnl";s:5:"11608";s:13:"testroncntunt";s:5:"65594";s:15:"transproncntunt";s:5:"64237";s:14:"transpronchnnl";s:5:"11584";s:17:"uyru345hr9lks1453";s:26:"34715973320417111494574863";s:14:"lk6woeqwjnbcfn";s:13:"1495382480568";s:18:"_identity-frontend";s:158:"ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a:2:{i:0;s:18:"_identity-frontend";i:1;s:46:"[1,"QN2kV5dup82LB8jXXaBDpZZU9ntKuay3",2592000]";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:3:{s:7:"__flash";a:0:{}s:11:"__returnUrl";s:1:"/";s:4:"__id";i:1;}}s:3:"log";a:1:{s:8:"messages";a:30:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1495383906.5099771;i:4;a:0:{}i:5;i:2244392;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1495383906.5100131;i:4;a:0:{}i:5;i:2245824;}i:2;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1495383906.5173099;i:4;a:0:{}i:5;i:2645528;}i:3;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1495383906.52022;i:4;a:0:{}i:5;i:2833520;}i:4;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1495383906.520829;i:4;a:0:{}i:5;i:2861216;}i:5;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1495383906.52442;i:4;a:0:{}i:5;i:3045008;}i:6;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1495383906.5244401;i:4;a:0:{}i:5;i:3045920;}i:7;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1495383906.524451;i:4;a:0:{}i:5;i:3046872;}i:8;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1495383906.524462;i:4;a:0:{}i:5;i:3047776;}i:9;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1495383906.524472;i:4;a:0:{}i:5;i:3049048;}i:10;a:6:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1495383906.5244789;i:4;a:0:{}i:5;i:3049624;}i:11;a:6:{i:0;s:19:"Route requested: ''";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1495383906.5244911;i:4;a:0:{}i:5;i:3049072;}i:12;a:6:{i:0;s:27:"Route to run: profile/index";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1495383906.527411;i:4;a:0:{}i:5;i:3242840;}i:13;a:6:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1495383906.5366471;i:4;a:0:{}i:5;i:3508592;}i:14;a:6:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495383906.5782311;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5046440;}i:15;a:6:{i:0;s:53:"Opening DB connection: mysql:host=localhost;dbname=hs";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1495383906.5782981;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5050224;}i:20;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6017931;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5108664;}i:23;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6050141;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5137008;}i:26;a:6:{i:0;s:69:"Running action: frontend\controllers\ProfileController::actionIndex()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1495383907.6103139;i:4;a:0:{}i:5;i:5298360;}i:27;a:6:{i:0;s:48:"SELECT * FROM `user` WHERE `username`='agalio94'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.611028;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5332312;}i:30;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.611959;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5342176;}i:33;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.613445;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5358808;}i:36;a:6:{i:0;s:46:"SELECT * FROM `user_profile` WHERE `user_id`=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.61499;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5390776;}i:39;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `user_profile`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.615813;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5399976;}i:42;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user_profile' AND kcu.table_name = 'user_profile'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6171989;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5415312;}i:45;a:6:{i:0;s:49:"SELECT * FROM `gallery` WHERE `user_profile_id`=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6188121;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5496232;}i:48;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `gallery`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6194429;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5506776;}i:51;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'gallery' AND kcu.table_name = 'gallery'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6207421;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5519064;}i:54;a:6:{i:0;s:102:"Rendering view file: D:\Games\OpenServer\domains\templateYii2advanced\frontend\views\profile\index.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1495383907.6251099;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:60;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5631896;}i:55;a:6:{i:0;s:104:"Rendering view file: D:\Games\OpenServer\domains\templateYii2advanced\frontend\views\layouts\profile.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1495383907.6523199;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:60;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:7117408;}}}s:9:"profiling";a:3:{s:6:"memory";i:7332096;s:4:"time";d:1.174293041229248;s:8:"messages";a:26:{i:16;a:6:{i:0;s:53:"Opening DB connection: mysql:host=localhost;dbname=hs";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1495383906.5783229;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5051600;}i:17;a:6:{i:0;s:53:"Opening DB connection: mysql:host=localhost;dbname=hs";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1495383907.599113;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5068632;}i:18;a:6:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.5991919;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5068288;}i:19;a:6:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.5998189;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5071656;}i:21;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6018939;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5110704;}i:22;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6039081;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5122304;}i:24;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6051559;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5140168;}i:25;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6064241;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5141936;}i:28;a:6:{i:0;s:48:"SELECT * FROM `user` WHERE `username`='agalio94'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.611068;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5334544;}i:29;a:6:{i:0;s:48:"SELECT * FROM `user` WHERE `username`='agalio94'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6118851;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5337736;}i:31;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6119959;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5344216;}i:32;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6131871;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5355816;}i:34;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6134729;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5361968;}i:35;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6142969;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5363736;}i:37;a:6:{i:0;s:46:"SELECT * FROM `user_profile` WHERE `user_id`=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6150651;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5392976;}i:38;a:6:{i:0;s:46:"SELECT * FROM `user_profile` WHERE `user_id`=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6157391;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5396096;}i:40;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `user_profile`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6158421;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5402032;}i:41;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `user_profile`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.616935;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5413592;}i:43;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user_profile' AND kcu.table_name = 'user_profile'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6172299;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5418488;}i:44;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user_profile' AND kcu.table_name = 'user_profile'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.618103;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5421096;}i:46;a:6:{i:0;s:49:"SELECT * FROM `gallery` WHERE `user_profile_id`=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6188419;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5498432;}i:47;a:6:{i:0;s:49:"SELECT * FROM `gallery` WHERE `user_profile_id`=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.619364;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5501864;}i:49;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `gallery`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6194749;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5508832;}i:50;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `gallery`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.62059;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5514168;}i:52;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'gallery' AND kcu.table_name = 'gallery'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6207719;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5522224;}i:53;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'gallery' AND kcu.table_name = 'gallery'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.621707;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5524840;}}}s:2:"db";a:1:{s:8:"messages";a:24:{i:18;a:6:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.5991919;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5068288;}i:19;a:6:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.5998189;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5071656;}i:21;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6018939;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5110704;}i:22;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6039081;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5122304;}i:24;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6051559;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5140168;}i:25;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6064241;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"D:\Games\OpenServer\domains\templateYii2advanced\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:5141936;}i:28;a:6:{i:0;s:48:"SELECT * FROM `user` WHERE `username`='agalio94'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.611068;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5334544;}i:29;a:6:{i:0;s:48:"SELECT * FROM `user` WHERE `username`='agalio94'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6118851;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5337736;}i:31;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6119959;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5344216;}i:32;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6131871;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5355816;}i:34;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6134729;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5361968;}i:35;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6142969;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5363736;}i:37;a:6:{i:0;s:46:"SELECT * FROM `user_profile` WHERE `user_id`=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6150651;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5392976;}i:38;a:6:{i:0;s:46:"SELECT * FROM `user_profile` WHERE `user_id`=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6157391;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5396096;}i:40;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `user_profile`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6158421;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5402032;}i:41;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `user_profile`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.616935;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5413592;}i:43;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user_profile' AND kcu.table_name = 'user_profile'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6172299;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5418488;}i:44;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user_profile' AND kcu.table_name = 'user_profile'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.618103;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:45;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5421096;}i:46;a:6:{i:0;s:49:"SELECT * FROM `gallery` WHERE `user_profile_id`=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6188419;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5498432;}i:47;a:6:{i:0;s:49:"SELECT * FROM `gallery` WHERE `user_profile_id`=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.619364;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5501864;}i:49;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `gallery`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6194749;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5508832;}i:50;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `gallery`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.62059;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5514168;}i:52;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'gallery' AND kcu.table_name = 'gallery'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.6207719;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5522224;}i:53;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'gallery' AND kcu.table_name = 'gallery'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495383907.621707;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\controllers\ProfileController.php";s:4:"line";i:47;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:5524840;}}}s:6:"assets";a:7:{s:30:"yii\validators\ValidationAsset";a:9:{s:10:"sourcePath";s:75:"D:\Games\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.validation.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:77:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\web\assets\43c163c1";s:7:"baseUrl";s:16:"/assets/43c163c1";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:75:"D:\Games\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:77:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\web\assets\43c163c1";s:7:"baseUrl";s:16:"/assets/43c163c1";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:73:"D:\Games\OpenServer\domains\templateYii2advanced/vendor\bower/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:77:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\web\assets\c26f702a";s:7:"baseUrl";s:16:"/assets/c26f702a";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:27:"yii\widgets\ActiveFormAsset";a:9:{s:10:"sourcePath";s:75:"D:\Games\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.activeForm.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:77:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\web\assets\43c163c1";s:7:"baseUrl";s:16:"/assets/43c163c1";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"yii\bootstrap\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:76:"D:\Games\OpenServer\domains\templateYii2advanced/vendor\bower/bootstrap/dist";s:2:"js";a:1:{i:0;s:15:"js/bootstrap.js";}s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:77:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\web\assets\c67d23e2";s:7:"baseUrl";s:16:"/assets/c67d23e2";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"yii\bootstrap\BootstrapAsset";a:9:{s:10:"sourcePath";s:76:"D:\Games\OpenServer\domains\templateYii2advanced/vendor\bower/bootstrap/dist";s:3:"css";a:1:{i:0;s:17:"css/bootstrap.css";}s:8:"basePath";s:77:"D:\Games\OpenServer\domains\templateYii2advanced\frontend\web\assets\c67d23e2";s:7:"baseUrl";s:16:"/assets/c67d23e2";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:24:"frontend\assets\AppAsset";a:9:{s:8:"basePath";s:61:"D:/Games/OpenServer/domains/templateYii2advanced/frontend/web";s:7:"baseUrl";s:0:"";s:3:"css";a:1:{i:0;s:12:"css/site.css";}s:2:"js";a:3:{i:0;s:67:"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js";i:1;s:10:"js/main.js";i:2;s:9:"js/qqq.js";}s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:10:"sourcePath";N;s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}s:4:"mail";a:0:{}s:8:"timeline";a:2:{s:5:"start";d:1495383906.484772;s:3:"end";d:1495383907.6591079;}s:7:"summary";a:9:{s:3:"tag";s:13:"5921bf627e6c5";s:3:"url";s:28:"http://templateyii2advanced/";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:9:"127.0.0.1";s:4:"time";i:1495383907;s:10:"statusCode";i:200;s:8:"sqlCount";i:12;s:9:"mailCount";i:0;}}
