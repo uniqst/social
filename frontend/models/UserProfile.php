@@ -86,4 +86,12 @@ class UserProfile extends \yii\db\ActiveRecord
     {
         return $this->hasMany(News::className(), ['profile_id' => 'id']);
     }
+     public function getMessages()
+    {
+        return $this->hasMany(Messages::className(), ['profile_id' => 'id']);
+    }
+      public function getMessagesFrom()
+    {
+        return $this->hasMany(Messages::className(), ['from_id' => 'id']);
+    }
 }
