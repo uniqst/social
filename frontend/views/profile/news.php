@@ -12,7 +12,7 @@ $this->params['breadcrumbs'][] = $this->title;
    <?php foreach($model as $news):?>
   <a href="#" class="list-group-item list-group-item-action flex-column align-items-start news" style="background: white; border-radius: 10px;">
     <div class="d-flex w-100 justify-content-between">
-    <img src="/<?=$news->userProfile->avatar?>" style="border-radius: 50%; width: 50px; height: 50px;">
+    <img src="/<?=$news->userProfile->avatar?>" style="border-radius: 50%; width: 50px; height: 50px; border: 2px solid black;">
     <?=$news->userProfile->name?> <?=$news->userProfile->surname?>
     <img src="<?=$news->photo?>" width="100%">
       <h2><?=$news->name?></h2>

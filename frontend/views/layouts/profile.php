@@ -87,6 +87,10 @@ AppAsset::register($this);
               <a href="<?=Url::to(['profile/video'])?>"><i class="fa fa-youtube-play" aria-hidden="true"></i>
                 Видео</a>
               </li>
+              <li class="list-group-item justify-content-between">
+              <a href="<?=Url::to(['profile/games'])?>"><i class="fa fa-gamepad" aria-hidden="true"></i>
+                Игры</a>
+              </li>
             </ul>
           </div>
           <div class="col-md-10">

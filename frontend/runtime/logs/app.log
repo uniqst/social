@@ -19521,3 +19521,411 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2017-05-22 03:29:45 [127.0.0.1][1][06fjkorgmmqocl5ovju11rllvbnpfdfc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "wdg/game-12.15.6/img/game-loader.gif". in F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('wdg/game-12.15....', Array)
+#1 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\OpenServer\OpenServer\domains\templateYii2advanced\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\OpenServer\OpenServer\domains\templateYii2advanced\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-05-22 03:29:44 [127.0.0.1][1][06fjkorgmmqocl5ovju11rllvbnpfdfc][info][application] $_COOKIE = [
+    '_csrf-frontend' => '074eda39c6f54ec08d3f9ba3fa233ae485c45f81758f2e3c14bad381b2fc5546a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"IPijtPoJjGYBjsLkLKRUdu55bXw-ZXvW\";}'
+    'advanced-frontend' => '06fjkorgmmqocl5ovju11rllvbnpfdfc'
+    '__lnkrntdmcvrd' => '-1'
+    '_identity-frontend' => 'ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QN2kV5dup82LB8jXXaBDpZZU9ntKuay3\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'templateyii2advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://templateyii2advanced/profile/news'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf-frontend=074eda39c6f54ec08d3f9ba3fa233ae485c45f81758f2e3c14bad381b2fc5546a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22IPijtPoJjGYBjsLkLKRUdu55bXw-ZXvW%22%3B%7D; advanced-frontend=06fjkorgmmqocl5ovju11rllvbnpfdfc; __lnkrntdmcvrd=-1; _identity-frontend=ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QN2kV5dup82LB8jXXaBDpZZU9ntKuay3%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\ext;f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\pear;f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\pear\\bin;f:\\openserver\\openserver\\modules\\php\\PHP-7.1;f:\\openserver\\openserver\\modules\\imagemagick;f:\\openserver\\openserver\\modules\\wget\\bin;f:\\openserver\\openserver\\modules\\git;f:\\openserver\\openserver\\modules\\git\\bin;f:\\openserver\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\openserver\\modules\\git\\cmd;f:\\openserver\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;f:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.wlua;.lexe'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'templateyii2advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '50216'
+    'REDIRECT_URL' => '/frontend/web/wdg/game-12.15.6/img/game-loader.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wdg/game-12.15.6/img/game-loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1495412984.959
+    'REQUEST_TIME' => 1495412984
+    'argv' => []
+    'argc' => 0
+]
+2017-05-22 03:29:49 [127.0.0.1][1][06fjkorgmmqocl5ovju11rllvbnpfdfc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "wdg/vda_video-active/js/minified/wdg_vda_video-MINIFIED-6bd4c92a9bbedcda7b5372a9ab0af256.js". in F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('wdg/vda_video-a...', Array)
+#1 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\OpenServer\OpenServer\domains\templateYii2advanced\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\OpenServer\OpenServer\domains\templateYii2advanced\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-05-22 03:29:47 [127.0.0.1][1][06fjkorgmmqocl5ovju11rllvbnpfdfc][info][application] $_COOKIE = [
+    '_csrf-frontend' => '074eda39c6f54ec08d3f9ba3fa233ae485c45f81758f2e3c14bad381b2fc5546a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"IPijtPoJjGYBjsLkLKRUdu55bXw-ZXvW\";}'
+    'advanced-frontend' => '06fjkorgmmqocl5ovju11rllvbnpfdfc'
+    '__lnkrntdmcvrd' => '-1'
+    '_identity-frontend' => 'ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QN2kV5dup82LB8jXXaBDpZZU9ntKuay3\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'templateyii2advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://templateyii2advanced/profile/news'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf-frontend=074eda39c6f54ec08d3f9ba3fa233ae485c45f81758f2e3c14bad381b2fc5546a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22IPijtPoJjGYBjsLkLKRUdu55bXw-ZXvW%22%3B%7D; advanced-frontend=06fjkorgmmqocl5ovju11rllvbnpfdfc; __lnkrntdmcvrd=-1; _identity-frontend=ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QN2kV5dup82LB8jXXaBDpZZU9ntKuay3%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\ext;f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\pear;f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\pear\\bin;f:\\openserver\\openserver\\modules\\php\\PHP-7.1;f:\\openserver\\openserver\\modules\\imagemagick;f:\\openserver\\openserver\\modules\\wget\\bin;f:\\openserver\\openserver\\modules\\git;f:\\openserver\\openserver\\modules\\git\\bin;f:\\openserver\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\openserver\\modules\\git\\cmd;f:\\openserver\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;f:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.wlua;.lexe'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'templateyii2advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '50235'
+    'REDIRECT_URL' => '/frontend/web/wdg/vda_video-active/js/minified/wdg_vda_video-MINIFIED-6bd4c92a9bbedcda7b5372a9ab0af256.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wdg/vda_video-active/js/minified/wdg_vda_video-MINIFIED-6bd4c92a9bbedcda7b5372a9ab0af256.js'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1495412986.069
+    'REQUEST_TIME' => 1495412986
+    'argv' => []
+    'argc' => 0
+]
+2017-05-22 03:29:49 [127.0.0.1][1][06fjkorgmmqocl5ovju11rllvbnpfdfc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "wdg/game-active/img/loader.gif". in F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('wdg/game-active...', Array)
+#1 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\OpenServer\OpenServer\domains\templateYii2advanced\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\OpenServer\OpenServer\domains\templateYii2advanced\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-05-22 03:29:47 [127.0.0.1][1][06fjkorgmmqocl5ovju11rllvbnpfdfc][info][application] $_COOKIE = [
+    '_csrf-frontend' => '074eda39c6f54ec08d3f9ba3fa233ae485c45f81758f2e3c14bad381b2fc5546a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"IPijtPoJjGYBjsLkLKRUdu55bXw-ZXvW\";}'
+    'advanced-frontend' => '06fjkorgmmqocl5ovju11rllvbnpfdfc'
+    '__lnkrntdmcvrd' => '-1'
+    '_identity-frontend' => 'ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QN2kV5dup82LB8jXXaBDpZZU9ntKuay3\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'templateyii2advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://templateyii2advanced/profile/news'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf-frontend=074eda39c6f54ec08d3f9ba3fa233ae485c45f81758f2e3c14bad381b2fc5546a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22IPijtPoJjGYBjsLkLKRUdu55bXw-ZXvW%22%3B%7D; advanced-frontend=06fjkorgmmqocl5ovju11rllvbnpfdfc; __lnkrntdmcvrd=-1; _identity-frontend=ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QN2kV5dup82LB8jXXaBDpZZU9ntKuay3%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\ext;f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\pear;f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\pear\\bin;f:\\openserver\\openserver\\modules\\php\\PHP-7.1;f:\\openserver\\openserver\\modules\\imagemagick;f:\\openserver\\openserver\\modules\\wget\\bin;f:\\openserver\\openserver\\modules\\git;f:\\openserver\\openserver\\modules\\git\\bin;f:\\openserver\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\openserver\\modules\\git\\cmd;f:\\openserver\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;f:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.wlua;.lexe'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'templateyii2advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '50218'
+    'REDIRECT_URL' => '/frontend/web/wdg/game-active/img/loader.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wdg/game-active/img/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1495412984.975
+    'REQUEST_TIME' => 1495412984
+    'argv' => []
+    'argc' => 0
+]
+2017-05-22 03:30:04 [127.0.0.1][1][06fjkorgmmqocl5ovju11rllvbnpfdfc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "wdg/vda_video-active/js/minified/wdg_vda_video-MINIFIED-6bd4c92a9bbedcda7b5372a9ab0af256.js". in F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('wdg/vda_video-a...', Array)
+#1 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\OpenServer\OpenServer\domains\templateYii2advanced\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\OpenServer\OpenServer\domains\templateYii2advanced\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-05-22 03:30:04 [127.0.0.1][1][06fjkorgmmqocl5ovju11rllvbnpfdfc][info][application] $_COOKIE = [
+    '_csrf-frontend' => '074eda39c6f54ec08d3f9ba3fa233ae485c45f81758f2e3c14bad381b2fc5546a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"IPijtPoJjGYBjsLkLKRUdu55bXw-ZXvW\";}'
+    'advanced-frontend' => '06fjkorgmmqocl5ovju11rllvbnpfdfc'
+    '__lnkrntdmcvrd' => '-1'
+    '_identity-frontend' => 'ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QN2kV5dup82LB8jXXaBDpZZU9ntKuay3\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'templateyii2advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://templateyii2advanced/profile/news'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf-frontend=074eda39c6f54ec08d3f9ba3fa233ae485c45f81758f2e3c14bad381b2fc5546a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22IPijtPoJjGYBjsLkLKRUdu55bXw-ZXvW%22%3B%7D; advanced-frontend=06fjkorgmmqocl5ovju11rllvbnpfdfc; __lnkrntdmcvrd=-1; _identity-frontend=ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QN2kV5dup82LB8jXXaBDpZZU9ntKuay3%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\ext;f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\pear;f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\pear\\bin;f:\\openserver\\openserver\\modules\\php\\PHP-7.1;f:\\openserver\\openserver\\modules\\imagemagick;f:\\openserver\\openserver\\modules\\wget\\bin;f:\\openserver\\openserver\\modules\\git;f:\\openserver\\openserver\\modules\\git\\bin;f:\\openserver\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\openserver\\modules\\git\\cmd;f:\\openserver\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;f:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.wlua;.lexe'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'templateyii2advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '50282'
+    'REDIRECT_URL' => '/frontend/web/wdg/vda_video-active/js/minified/wdg_vda_video-MINIFIED-6bd4c92a9bbedcda7b5372a9ab0af256.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wdg/vda_video-active/js/minified/wdg_vda_video-MINIFIED-6bd4c92a9bbedcda7b5372a9ab0af256.js'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1495413004.758
+    'REQUEST_TIME' => 1495413004
+    'argv' => []
+    'argc' => 0
+]
+2017-05-22 03:30:05 [127.0.0.1][1][06fjkorgmmqocl5ovju11rllvbnpfdfc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "wdg/game-active/img/loader.gif". in F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('wdg/game-active...', Array)
+#1 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\OpenServer\OpenServer\domains\templateYii2advanced\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\OpenServer\OpenServer\domains\templateYii2advanced\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-05-22 03:30:04 [127.0.0.1][1][06fjkorgmmqocl5ovju11rllvbnpfdfc][info][application] $_COOKIE = [
+    '_csrf-frontend' => '074eda39c6f54ec08d3f9ba3fa233ae485c45f81758f2e3c14bad381b2fc5546a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"IPijtPoJjGYBjsLkLKRUdu55bXw-ZXvW\";}'
+    'advanced-frontend' => '06fjkorgmmqocl5ovju11rllvbnpfdfc'
+    '__lnkrntdmcvrd' => '-1'
+    '_identity-frontend' => 'ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QN2kV5dup82LB8jXXaBDpZZU9ntKuay3\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'templateyii2advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://templateyii2advanced/profile/news'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf-frontend=074eda39c6f54ec08d3f9ba3fa233ae485c45f81758f2e3c14bad381b2fc5546a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22IPijtPoJjGYBjsLkLKRUdu55bXw-ZXvW%22%3B%7D; advanced-frontend=06fjkorgmmqocl5ovju11rllvbnpfdfc; __lnkrntdmcvrd=-1; _identity-frontend=ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QN2kV5dup82LB8jXXaBDpZZU9ntKuay3%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\ext;f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\pear;f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\pear\\bin;f:\\openserver\\openserver\\modules\\php\\PHP-7.1;f:\\openserver\\openserver\\modules\\imagemagick;f:\\openserver\\openserver\\modules\\wget\\bin;f:\\openserver\\openserver\\modules\\git;f:\\openserver\\openserver\\modules\\git\\bin;f:\\openserver\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\openserver\\modules\\git\\cmd;f:\\openserver\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;f:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.wlua;.lexe'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'templateyii2advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '50287'
+    'REDIRECT_URL' => '/frontend/web/wdg/game-active/img/loader.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wdg/game-active/img/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1495413004.673
+    'REQUEST_TIME' => 1495413004
+    'argv' => []
+    'argc' => 0
+]
+2017-05-22 03:30:05 [127.0.0.1][1][06fjkorgmmqocl5ovju11rllvbnpfdfc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "wdg/game-12.15.6/img/game-loader.gif". in F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('wdg/game-12.15....', Array)
+#1 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\OpenServer\OpenServer\domains\templateYii2advanced\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 F:\OpenServer\OpenServer\domains\templateYii2advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\OpenServer\OpenServer\domains\templateYii2advanced\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-05-22 03:30:04 [127.0.0.1][1][06fjkorgmmqocl5ovju11rllvbnpfdfc][info][application] $_COOKIE = [
+    '_csrf-frontend' => '074eda39c6f54ec08d3f9ba3fa233ae485c45f81758f2e3c14bad381b2fc5546a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"IPijtPoJjGYBjsLkLKRUdu55bXw-ZXvW\";}'
+    'advanced-frontend' => '06fjkorgmmqocl5ovju11rllvbnpfdfc'
+    '__lnkrntdmcvrd' => '-1'
+    '_identity-frontend' => 'ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"QN2kV5dup82LB8jXXaBDpZZU9ntKuay3\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'templateyii2advanced'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://templateyii2advanced/profile/news'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf-frontend=074eda39c6f54ec08d3f9ba3fa233ae485c45f81758f2e3c14bad381b2fc5546a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22IPijtPoJjGYBjsLkLKRUdu55bXw-ZXvW%22%3B%7D; advanced-frontend=06fjkorgmmqocl5ovju11rllvbnpfdfc; __lnkrntdmcvrd=-1; _identity-frontend=ce7990281303b903a759d2187a01c9e4ce4c73b169b76c219a9dd2abc524a9b8a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QN2kV5dup82LB8jXXaBDpZZU9ntKuay3%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\ext;f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\pear;f:\\openserver\\openserver\\modules\\php\\PHP-7.1\\pear\\bin;f:\\openserver\\openserver\\modules\\php\\PHP-7.1;f:\\openserver\\openserver\\modules\\imagemagick;f:\\openserver\\openserver\\modules\\wget\\bin;f:\\openserver\\openserver\\modules\\git;f:\\openserver\\openserver\\modules\\git\\bin;f:\\openserver\\openserver\\modules\\git\\mingw\\bin;f:\\openserver\\openserver\\modules\\git\\cmd;f:\\openserver\\openserver\\modules\\database\\MySQL-5.7\\bin;f:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;f:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.wlua;.lexe'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'templateyii2advanced'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/OpenServer/domains/templateYii2advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '50300'
+    'REDIRECT_URL' => '/frontend/web/wdg/game-12.15.6/img/game-loader.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wdg/game-12.15.6/img/game-loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1495413004.75
+    'REQUEST_TIME' => 1495413004
+    'argv' => []
+    'argc' => 0
+]
