@@ -52,8 +52,9 @@ class ProfileController extends AccessController
             $gallery->user_profile_id = Yii::$app->user->id;
             $gallery->photo = $avatar->avatar;
             $gallery->save();
-            $avatar->file->saveAs('upload/' . $avatar->file->baseName . '.' . $avatar->file->extension);
-            $avatar->avatar = 'upload/' . $avatar->file->baseName . '.' . $avatar->file->extension;
+            $uid = md5(uniqid(rand(), true));
+            $avatar->file->saveAs('upload/' . $uid . '.' . $avatar->file->extension);
+            $avatar->avatar = 'upload/' . $uid . '.' . $avatar->file->extension;
             }
             $avatar->save();
         }
@@ -61,7 +62,10 @@ class ProfileController extends AccessController
     }
 
     public function actionNews(){
-             $model = News::find()->all();
+             $model = News::find()->with('userProfile')->all();
+             // echo "<pre>";
+             // print_r($model);
+             // echo "</pre>";
              return $this->render('news', compact('model'));
     }
 
@@ -69,6 +73,10 @@ class ProfileController extends AccessController
         $this->layout = false;
         $model = UserProfile::find()->where(['user_id' => Yii::$app->user->id])->with('gallery')->one();
         return $this->render('gallery', compact('model'));
+    }
+      public function actionVideo(){
+        $model = UserProfile::find()->where(['user_id' => Yii::$app->user->id])->with('video')->one();
+        return $this->render('video', compact('model'));
     }
 
 }
