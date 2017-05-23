@@ -10,6 +10,7 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
+use yii\widgets\Pjax;
 
 AppAsset::register($this);
 ?>
@@ -23,8 +24,10 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
+
 <body style="background: url('/images/background.jpg');">
 <?php $this->beginBody() ?>
+ <?php Pjax::begin(); ?>
 <div class="wrap">
     <?php
     NavBar::begin([
@@ -52,8 +55,8 @@ AppAsset::register($this);
         color: black;
       }
     </style>
-    <div class="container">
 
+    <div class="container">
         <?= Alert::widget() ?>
         <div class="row">
           <div class="col-md-2" style="padding: 0">
@@ -94,7 +97,9 @@ AppAsset::register($this);
             </ul>
           </div>
           <div class="col-md-10">
-               <?= $content ?>
+           <?php Pjax::begin(); ?>
+                   <?=$content ?> 
+           <?php Pjax::end(); ?>
           </div>
         </div>
 </div>

@@ -102,5 +102,11 @@ class UserProfile extends \yii\db\ActiveRecord
     {
         return $this->hasMany(Messages::className(), ['from_id' => 'id']);
     }
+     public function getFromUser()
+    {
+        return $this->hasOne(Messages::className(), ['profile_id' => 'id']);
+    }
+   
+
 
 }

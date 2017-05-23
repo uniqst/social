@@ -43,11 +43,21 @@ class MessagesController extends AccessController
     }
 
     public function actionIndex(){
-          $model = Messages::find()->joinWith(['profile' => function($query){
+          $model = Messages::find()->with('from')->joinWith(['profile' => function($query){
             $query->where(['user_id' => 1]);
-          }])->with('from')->all();
-        
+          }])->groupBy('')->all();
+          // echo "<pre>";
+          // print_r($model);
+          // echo "</pre>";
           return $this->render('index', compact('model'));
+    }
+
+    public function actionMessage($from){
+          $model = UserProfile::find()->where(['user_id' => $from])->with('from.from')->one();
+          // echo "<pre>";
+          // print_r($model);
+          // echo "</pre>";
+          return $this->render('message', compact('model'));
     }
 
 }

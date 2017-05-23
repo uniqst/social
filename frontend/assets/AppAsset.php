@@ -19,7 +19,8 @@ class AppAsset extends AssetBundle
     public $js = [
         'js/main.js',
         'js/qqq.js',
-
+        'https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js'
+        
     ];
     public $depends = [
         'yii\web\YiiAsset',

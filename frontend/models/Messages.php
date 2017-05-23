@@ -70,4 +70,5 @@ class Messages extends \yii\db\ActiveRecord
     {
         return $this->hasOne(UserProfile::className(), ['id' => 'from_id']);
     }
+
 }

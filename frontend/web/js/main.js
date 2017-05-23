@@ -9,4 +9,3 @@ $('#modalButton').click(function(){
         .load($(this).attr('value'));
 });
 });
-
