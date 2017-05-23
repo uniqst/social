@@ -78,9 +78,5 @@ class ProfileController extends AccessController
         $model = UserProfile::find()->where(['user_id' => Yii::$app->user->id])->with('video')->one();
         return $this->render('video', compact('model'));
     }
-     public function actionGames(){
-        return $this->render('games');
-    }
-
 
 }

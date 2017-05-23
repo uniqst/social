@@ -63,32 +63,32 @@ AppAsset::register($this);
               Моя страница</a>
               </li>
               <li class="list-group-item justify-content-between">
-                <i class="fa fa-envelope-open" aria-hidden="true"></i>
-                Сообщения
+                <a href="<?=Url::to(['/messages'])?>"><i class="fa fa-envelope-open" aria-hidden="true"></i>
+                Сообщения</a>
                 <span class="badge badge-default badge-pill">200</span>
               </li>
               <li class="list-group-item justify-content-between">
-              <a href="<?=Url::to(['profile/news'])?>"><i class="fa fa-list-alt" aria-hidden="true"></i>
+              <a href="<?=Url::to(['/news'])?>"><i class="fa fa-list-alt" aria-hidden="true"></i>
                 Новости</a>
               </li>
               <li class="list-group-item justify-content-between">
-                <i class="fa fa-handshake-o" aria-hidden="true"></i>
-                Друзья
+              <a href="<?=Url::to('/friends')?>"><i class="fa fa-handshake-o" aria-hidden="true"></i>
+                Друзья</a>
               </li>
               <li class="list-group-item justify-content-between">
-              <i class="fa fa-users" aria-hidden="true"></i>
-                Групы
+              <a href="<?=Url::to(['/groups'])?>"><i class="fa fa-users" aria-hidden="true"></i>
+                Групы</a>
               </li>
               <li class="list-group-item justify-content-between">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-                Фотографии
+                  <a href="<?=Url::to(['/photo'])?>"><i class="fa fa-picture-o" aria-hidden="true"></i>
+                Фотографии</a>
               </li>
               <li class="list-group-item justify-content-between">
-              <a href="<?=Url::to(['profile/video'])?>"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+              <a href="<?=Url::to(['/video'])?>"><i class="fa fa-youtube-play" aria-hidden="true"></i>
                 Видео</a>
               </li>
               <li class="list-group-item justify-content-between">
-              <a href="<?=Url::to(['profile/games'])?>"><i class="fa fa-gamepad" aria-hidden="true"></i>
+              <a href="<?=Url::to(['/games'])?>"><i class="fa fa-gamepad" aria-hidden="true"></i>
                 Игры</a>
               </li>
             </ul>

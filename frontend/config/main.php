@@ -5,7 +5,6 @@ $params = array_merge(
     require(__DIR__ . '/params.php'),
     require(__DIR__ . '/params-local.php')
 );
-
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
@@ -14,7 +13,6 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
-
         'view' => [
             'class' => '\rmrevin\yii\minify\View',
             'enableMinify' => !YII_DEBUG,
