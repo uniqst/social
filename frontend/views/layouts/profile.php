@@ -38,10 +38,19 @@ AppAsset::register($this);
         ],
     ]);
     $menuItems = [
-        ['label' => 'Выйти', 'url' => ['/site/logout']],
+        ['label' => '<span class="fa fa-envelope-open"> Выйти</span>', 'url' => ['/site/logout']],
+        ['label' => '<span class="fa fa-envelope-open"> Выйти</span>', 'url' => ['/site/logout']],
+        ['label' => '<span class="fa fa-envelope-open"> Выйти</span>', 'url' => ['/site/logout']],
+        ['label' => '<span class="fa fa-envelope-open"> Выйти</span>', 'url' => ['/site/logout']],
+        ['label' => '<span class="fa fa-envelope-open"> Выйти</span>', 'url' => ['/site/logout']],
+        ['label' => '<span class="fa fa-envelope-open"> Выйти</span>', 'url' => ['/site/logout']],
+        ['label' => '<span class="fa fa-envelope-open"> Выйти</span>', 'url' => ['/site/logout']],
+        ['label' => '<span class="fa fa-envelope-open"> Выйти</span>', 'url' => ['/site/logout']],
+       
     ];
     echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
+        'options' => ['class' => 'navbar-nav navbar-right visible-xs visible-sm'],
+        'encodeLabels' => false,
         'items' => $menuItems,
     ]);
     NavBar::end();
@@ -60,7 +69,7 @@ AppAsset::register($this);
         <?= Alert::widget() ?>
         <div class="row">
           <div class="col-md-2" style="padding: 0">
-            <ul class="list-group">
+            <ul class="list-group sidebar sidebar hidden-xs hidden-sm">
               <li class="list-group-item justify-content-between">
               <a href="/"><i class="fa fa-home" aria-hidden="true"></i>
               Моя страница</a>
